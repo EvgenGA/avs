@@ -8,7 +8,7 @@ RUN apt-get update &&\
 # Add Docker's official GPG key:
  apt-get update &&\
  apt-get install ca-certificates curl &&\
- curl -fsSL https://download.docker.com/linux/jenkins/gpg -o /etc/apt/keyrings/docker.asc &&\
+ curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc &&\
  chmod a+r /etc/apt/keyrings/docker.asc &&\
 
 # Add the repository to Apt sources:
